@@ -38,7 +38,7 @@ you can find all the four component inside the component folder.
 4. Package.json file contains all the dependencies.
 
 
-Let's Discuss Each Component one by one:-
+## Let's Discuss Each Component one by one:-
 
 ``
 SideNav.vue
@@ -48,4 +48,11 @@ SideNav.vue
 2. The Nav data like: Home, Explore, Notfications, etc are coming from data function which I have defined below on the same Page.
 
 3. I'm using v-for to loop through so, that it will create dynamic Navbar.
+
+``
+View After Adding Side Navbar
+``
+
+<img src="./sidenav.png" width="600px">
+
 
