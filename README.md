@@ -1,4 +1,4 @@
-# twitter
+# Twitter Demo Project
 
 ## Project setup
 
@@ -84,10 +84,14 @@ Trending.vue
 
 2. I have further divided the right side into there parts.
 
+3. File Path: src > components > Trending.vue
+
 ``
 Search.vue
 ``
 1. It gonna display the Search bar on the right top area.
+
+2. File Path: src > components > Search.vue
 
 ``
 View After Adding Search bar
