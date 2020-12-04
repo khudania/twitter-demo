@@ -114,4 +114,4 @@ View After Adding Search bar
 View After Adding Trending Topics
 ``
 
-<img src="./trend.png" width="960px">
+<img src="./trends.png" width="960px">
