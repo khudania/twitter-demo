@@ -102,3 +102,16 @@ View After Adding Search bar
 ``
 
 <img src="./search.png" width="960px">
+
+``Trend.vue
+``
+
+1. This component gonna display current trending topics.
+
+2. File Path: src > components > trend.vue
+
+``
+View After Adding Trending Topics
+``
+
+<img src="./trend.png" width="960px">
