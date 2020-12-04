@@ -1,12 +1,17 @@
 # twitter
 
 ## Project setup
+
+### Minimum requirement for the project is 'Nodejs(LTS)', 'VueCli' and 'yarn package manager(optional)' to be installed on the system.
+
+------------------------------------
+
 ```
-Step1:- git clone <git repo>
+Step1:- git clone https://github.com/khudania/twitter-demo.git
 
-step2:- cd twitter
+step2:- cd twitter-demo
 
-step3:- yarn install
+step3:- yarn install or npm install
 
 step4:- yarn serve
 
