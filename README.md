@@ -138,3 +138,26 @@ Mobile View
 ``
 
 <img src="./mobile_view.png" width="960px">
+
+
+# SEO Meta Tags
+
+In Vue we have a package for adding SEO meta tags i.e., vue-meta
+
+I have used the vue-meta for defining all the meta tags for SEO. 
+
+AS I have only one view i.e. HomePage. So, I have added all the SEO meta tags on Home.vue page.
+
+``
+File Path: src > views > Home.vue
+``
+
+``
+Screenshot to meta tags added
+``
+
+<img src="./metatags.png" width="960px">
+
+Also on I have added the sitexml file. 
+
+I have added XML file info with refernce to my online portfolio.
