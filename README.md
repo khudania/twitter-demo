@@ -20,7 +20,7 @@ It will open project on localhost:8080
 
 Project Description:
 
-1. The entire Project is divided into 4 components
+1. The entire Project is divided into 6 components
 
     1.1 SideNav
     
@@ -29,6 +29,10 @@ Project Description:
     1.3 Trend for You
 
     1.4 Who to follow
+
+    1.5 Search
+
+    1.6 Trending
 
 you can find all the four component inside the component folder.
 
