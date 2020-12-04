@@ -55,7 +55,7 @@ SideNav.vue
 View After Adding Side Navbar
 ``
 
-<img src="./sidenav.png" width="960px">
+<img src="./sidenav.png" width="960px" background-color="black">
 
 ``
 Tweet.vue
