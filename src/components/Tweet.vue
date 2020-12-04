@@ -100,7 +100,13 @@ export default {
       
     
       following: [
-       
+        {src: 'hardeep.jpg', name: 'Hardeep Singh Puri', handle: '@HardeepSPuri', time: '8h', tweet: 'Vande Bharat Mission is the largest repatriation mission of its kind in recent times.', comments: '187', retweets: '550', like: '10k'},
+        {src: 'amitabh.jpg', name: 'Amitabh Bachchan', handle: '@SrBachchan', time: '55m', tweet: 'Should me and the rock do another sub-par movie together????', comments: '287', retweets: '50', like: '2k'},
+        {src: 'elon.jpg', name: 'Elon Musk', handle: '@elonmusk', time: '3h', tweet: 'Watch Demolition Man', comments: '3.3k', retweets: '2.7k', like: '32.6k'},
+        {src: 'amitabh.jpg', name: 'Amitabh Bachchan', handle: '@SrBachchan', time: 'Dec 2', tweet: 'T 3739 - ".... at any given moment, the human mind can take in 11 million pieces of information. The most generous estimate is that people can be consciously aware of forty of these .. " ~ UnvV', comments: '120', retweets: '280', like: '5k'},
+        {src: 'amitabh.jpg', name: 'Amitabh Bachchan', handle: '@SrBachchan', time: 'Nov 29', tweet: "T 3737 - PREM NATH ji .. legendary iconic artist of the Film Industry .. a tribute to him by his Grandsons - Monty Nath's sons ! a family coming together in homage and remembrance ..  the values we cherish and live for  Folded handsFolded hands", comments: '156', retweets: '200', like: '2.5k'},
+        {src: 'elon.jpg', name: 'Elon Musk', handle: '@elonmusk', time: 'Nov 25', tweet: 'Good Starship SN8 static fire! Aiming for first 15km / ~50k ft altitude flight next week. Goals are to test 3 engine ascent, body flaps, transition from main to header tanks & landing flip.', comments: '1.6k', retweets: '4.1k', like: '55.3k'},
+        {src: 'nasa.jpg', name: 'Nasa', handle: '@NASA', time: 'Nov 24', tweet: 'With Chang’e 5, China has launched an effort to join the U.S. & the former Soviet Union in obtaining lunar samples. We hope China shares its data with the global scientific community to enhance our understanding of the Moon like our Apollo missions did & the Artemis program will.', comments: '1.1k', retweets: '1k', like: '6k'}
       ],
       tweets: [
         {content: 'It is so nice outside!'}
