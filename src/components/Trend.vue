@@ -1,7 +1,7 @@
 <template>
     <div class="w-full rounded-lg bg-lightest">
         <div class="flex items-center justify-between p-3">
-          <p class="text-lg font-bold">Trends for You</p>
+          <p class="text-lg font-bold">What’s happening</p>
           <i class="fas fa-cog text-lg text-blue"></i>
         </div>
         <button v-for="trend in trending" :key="trend" class="w-full flex justify-between hover:bg-lighter p-3 border-t border-lighter">
