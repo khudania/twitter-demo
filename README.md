@@ -76,3 +76,21 @@ View After Adding Tweet
 ``
 
 <img src="./tweet.png" width="960px">
+
+``
+Trending.vue
+``
+1. It is going to be the right side of the screen where Search, Trend and who to follow components are gonna come.
+
+2. I have further divided the right side into there parts.
+
+``
+Search.vue
+``
+1. It gonna display the Search bar on the right top area.
+
+``
+View After Adding Search bar
+``
+
+<img src="./search.png" width="960px">
