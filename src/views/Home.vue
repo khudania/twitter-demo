@@ -3,6 +3,7 @@
     <SideNav />
     <Tweet />
     <Trending />
+   
   </div>
 </template>
 
@@ -12,12 +13,14 @@ import SideNav from '@/components/SideNav'
 import Tweet from '@/components/Tweet'
 import Trending from '@/components/Trending'
 
+
 export default {
   name: 'Home',
   components: {
    SideNav,
    Tweet,
-   Trending
+   Trending,
+ 
   },
 }
 </script>

@@ -103,15 +103,38 @@ View After Adding Search bar
 
 <img src="./search.png" width="960px">
 
-``Trend.vue
+``
+Trend.vue
 ``
 
 1. This component gonna display current trending topics.
 
-2. File Path: src > components > trend.vue
+2. File Path: src > components > Trend.vue
 
 ``
 View After Adding Trending Topics
 ``
 
 <img src="./trends.png" width="960px">
+
+``
+Follow.vue
+``
+
+1. This component gonna display Who to Follow.
+
+2. File Path: src > components > Follow.vue
+
+``
+View After Adding Trending Topics
+``
+
+<img src="./who-to-follow.png" width="960px">
+
+## Above is the Final View of The Project
+
+``
+Mobile View
+``
+
+<img src="./mobile_view.png" width="960px">
