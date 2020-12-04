@@ -49,10 +49,25 @@ SideNav.vue
 
 3. I'm using v-for to loop through so, that it will create dynamic Navbar.
 
+4. File Path: src > components > SideNav.vue
+
 ``
 View After Adding Side Navbar
 ``
 
-<img src="./sidenav.png" width="600px">
+<img src="./sidenav.png" width="960px">
 
+``
+Tweet.vue
+``
+1. In this component, I have defined the Tweets
 
+2. Also in this, you can type the tweet and click on tweet button, it will add the tweet. for this I have defined a addNewTweet(), using which I am pushing the tweet to the UI.
+
+3. File Path: src > components > Tweet.vue
+
+``
+View After Adding Tweet
+``
+
+<img src="./tweet.png" width="960px">
