@@ -6,10 +6,10 @@
           <i class="fab fa-twitter"></i>
         </button>
         <div>
-          <button v-for="tab in tabs" :key="tab" @click="id = tab.id" :class="`focus:outline-none hover:text-blue flex items-center py-2 px-4 hover:bg-lightblue rounded-full mr-auto mb-3 ${ id === tab.id ? 'text-blue' : ''}`">
+          <a v-for="tab in tabs" :key="tab" @click="id = tab.id" :href="tab.to" :class="`focus:outline-none hover:text-blue flex items-center py-2 px-4 hover:bg-lightblue rounded-full mr-auto mb-3 ${ id === tab.id ? 'text-blue' : ''}`">
             <i :class="`${ tab.icon } text-2xl mr-4 text-left`"></i>
             <p class="text-lg font-semibold text-left hidden lg:block"> {{ tab.title }} </p>
-          </button>
+          </a>
         </div>
         <button class="text-white bg-blue rounded-full font-semibold focus:outline-none w-12 h-12 lg:h-auto lg:w-full p-3 hover:bg-darkblue">
           <p class="hidden lg:block">Tweet</p>
@@ -50,13 +50,13 @@ export default {
     data() {
     return {
       tabs: [
-        {icon: 'fas fa-home', title: 'Home', id:'home'},
-        {icon: 'fas fa-hashtag', title: 'Explore', id: 'explore'},
-        {icon: 'far fa-bell', title: 'Notifications', id: 'notifications'},
-        {icon: 'far fa-envelope', title: 'Messages', id: 'messages'},
-        {icon: 'far fa-bookmark', title: 'Bookmarks', id: 'bookmarks'},
-        {icon: 'fas fa-clipboard-list', title: 'Lists', id: 'lists'},
-        {icon: 'far fa-user', title: 'Profile', id: 'profile'},
+        {icon: 'fas fa-home', title: 'Home', id:'home', to:'/'},
+        {icon: 'fas fa-hashtag', title: 'Explore', id: 'explore', to:'/explore'},
+        {icon: 'far fa-bell', title: 'Notifications', id: 'notifications', to:'/notifications'},
+        {icon: 'far fa-envelope', title: 'Messages', id: 'messages', to:'/messages'},
+        {icon: 'far fa-bookmark', title: 'Bookmarks', id: 'bookmarks', to:'/bookmarks'},
+        {icon: 'fas fa-clipboard-list', title: 'Lists', id: 'lists', to:'/lists'},
+        {icon: 'far fa-user', title: 'Profile', id: 'profile', to:'/profile'},
         {icon: 'fas fa-ellipsis-h', title: 'More', id: 'more'}
       ],
       id: 'home',
