@@ -161,3 +161,24 @@ Screenshot to meta tags added
 Also on I have added the sitexml file. 
 
 I have added XML file info with refernce to my online portfolio.
+
+
+## Added More Screens and Updations on the UI
+
+
+----------------------------
+
+``
+Notifications.vue
+``
+
+1. On clicking on Notification option on SideNav, it will display Notifications.
+
+2. File Path: src > components > Notifications.vue
+
+``
+View After Adding Trending Topics
+``
+
+<img src="./notifications.png" width="960px">
+
